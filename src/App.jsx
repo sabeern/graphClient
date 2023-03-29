@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       {graphData && (
-        <div id="chart">
+        <div id="nifty">
           <ReactApexChart
             options={graphData.options}
             series={graphData.series}
